@@ -1,0 +1,88 @@
+.figure {
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+
+.square {
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.square:hover {
+    z-index: 1;
+    background-color: pink;
+}
+
+.square-inner {
+    height: 25%;
+    width: 25%;
+    top: 37.5%;
+    left: 37.5%;
+    background-color: yellow;
+    border-radius: 10%;
+    position: absolute;
+}
+
+.circle {
+    width: 25%;
+    height: 25%;
+    background-color: red;
+    border-radius: 9999px;
+    position: absolute;
+}
+
+.circle--top-left {
+    top: 12.5%;
+    left: 12.5%;
+}
+
+.circle--top-left:hover {
+    z-index: 2;
+    background-color: green;
+}
+
+.circle--top-right {
+    top: 12.5%;
+    right: 12.5%;
+}
+.circle--top-right:hover {
+    z-index: 2;
+    background-color: orange;
+}
+
+.circle--bottom-left {
+    bottom: 12.5%;
+    left: 12.5%;
+}
+
+.circle--bottom-left:hover {
+    z-index: 2;
+    background-color: purple;
+}
+
+.circle--bottom-right {
+    bottom: 12.5%;
+    right: 12.5%;
+} 
+
+.circle--bottom-right:hover {
+    z-index: 2;
+    background-color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
